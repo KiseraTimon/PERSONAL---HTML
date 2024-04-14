@@ -12,26 +12,67 @@ over the past few weeks-->
 </head>
 <body>
     <h1>HTML Text Formatting</h1>
-    <p>
-        <b>HTML</b> in full is an abbreviation for <i>Hypertext Markup Language</i>
-        <br> The language has been around since <del>1991</del> <mark>1990</mark>, and was invented by <em>British computer scientist</em>
-        <br><strong>Sir Tim Berners-Lee</strong>.
-        <br><ins>HTML 1.0 was released in 1993</ins>
+    <p> 
+        This is a block-quote
+        <blockquote>
+        Most proposed Web prefetching techniques make predictions based on the historical references to requested objects.
+        In contrast, this paper examines the accuracy of predicting a user's next action based on analysis of the content 
+        of the pages requested recently by the user.
+        </blockquote>
     </p>
 
-    <p>This is in subscript: H<sub>2</sub>O</p>
-    <p>This is in superscript: 400<sup>2</sup></p>
+    <p>
+        This is a quote <br>
+        <q>
+            Success is the sum of small efforts - repeated day in and day out
+        </q>
+    </p>
+
+    <p>
+        Demonstrating abbreviations:<br>
+        <abbr title="Hypertext Markup Language">
+            HTML
+        </abbr>
+    </p>
+
+    <p>
+        This is the website to my school: 
+        <address>
+            www.strathmore.edu
+        </address>
+    </p>
+
+    <p>
+        This is a citation.<br>
+        <cite>
+            Predicting web actions from html content. 
+        </cite>
+        Davison, B. D. (2002, June). 
+        In Proceedings of the thirteenth ACM conference on Hypertext and hypermedia (pp. 159-168).
+    </p>
+
+    <p>
+        Demonstrating bi-directional override <br>
+        <bdo dir="rtl">Demonstrating bi-directional override</bdo>
+    </p>
+
+    <p>
+        Inserting comments<br>
+        To insert a comment to your HTML code:<br>
+        Insert a "<" followed by a "!" then "--" then your comment then "--" and finish with a ">"
+    </p>
 </body>
 </html>
 
-<!--A few text formatting features are available with HTML today.
-<b> makes text boldfaced
-<strong> appears bold, but screen readers take it as important text
-<i> makes text italicised
-<em> appears in italics, but screen readers take it as empasized text
-<mark> highlights text
-<small> makes text small
-<del> deleted text, appears with a strikethrough
-<ins> inserted text, appears with an underline
-<sub> subscripts
-<sup> superscripts-->
+<!--
+    <blockquote> Defines sections quoted from another source. Appears indented
+    <q> Defines a short quotation. Appears with double quotes
+    <abbr> Defines an abbreviation. It appears underlined
+        The full abbreviated word appears when the mouse hovers the word
+    <address> Defines a contact information. Appears italicised
+    <cite>  Defines the title of a creative art, e.g. a book or drawing
+    <bdo> Defines bi-directional override. Text is written in reverse.
+        When using <bdo>  the direction is specified using the dir attribute
+        and its value is the direction, e.g. <bdo dir="rtl"...rtl meaning
+        right to left
+-->
