@@ -12,13 +12,22 @@ over the past few weeks-->
 </head>
 <body>
 <h1>HTML Links</h1>
-<a href="https://www.google.com/">This is a link to google</a>
+<p>The target attribute defines where a link is opened. By default it opens on the same window<br></p>
+<a href="https://www.google.com/">This is a link to google.<br></a>
+<p>Other illustrations of the target attribute<br></p>
+<a href="https://www.google.com/" target="_self">This link to google will open on the same tab<br></a>
+<a href="https://www.google.com/" target="_blank">This link to google will open on a new tab<br></a>
+<a href="https://www.google.com/" target="_parent">This link to google will open on the parent frame<br></a>
+<a href="https://www.google.com/" target="_top">This link to google will open on the full body of the window<br></a>
 </body>
 </html>
 
 <!--
-    HTML links are specified using the <a> element
-    Unvisited links appear underlined and blue
-    Visited links appear underlined and purple
-    Active links appear underlined and red
+    The target attribute defines where a link is opened
+    Its values can be:
+
+    _self - Default. Link is opened on the same tab
+    _blank - Opens link in a new tab
+    _parent - Opens link on a parent frame
+    _top - Opens in full body of the window
 -->
