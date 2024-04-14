@@ -11,68 +11,36 @@ over the past few weeks-->
     <title>Document</title>
 </head>
 <body>
-    <h1>HTML Text Formatting</h1>
-    <p> 
-        This is a block-quote
-        <blockquote>
-        Most proposed Web prefetching techniques make predictions based on the historical references to requested objects.
-        In contrast, this paper examines the accuracy of predicting a user's next action based on analysis of the content 
-        of the pages requested recently by the user.
-        </blockquote>
-    </p>
+    <h1>HTML Colours</h1>
+    <p style="color: rgb(255,99,71);">Colour scheme 1: rgb(255,99,71)</p>
+    <p style="color: #ff6347;">Colour scheme 2: #ff6347</p>
+    <p style="color:hsl (9, 100%, 64%)">Colour scheme 3: hsl (9, 100%, 64%)</p>
+    <p style="color: rgba(255, 99, 71,0.5);">Colour scheme 4: rgba(255, 99, 71,0.5)</p>
+    <p style="color:hsla(9,100%,64%,0.5);">Colour scheme 5:hsla:(9,100%,64%,0.5)</p>
 
-    <p>
-        This is a quote <br>
-        <q>
-            Success is the sum of small efforts - repeated day in and day out
-        </q>
-    </p>
-
-    <p>
-        Demonstrating abbreviations:<br>
-        <abbr title="Hypertext Markup Language">
-            HTML
-        </abbr>
-    </p>
-
-    <p>
-        This is the website to my school: 
-        <address>
-            www.strathmore.edu
-        </address>
-    </p>
-
-    <p>
-        This is a citation.<br>
-        <cite>
-            Predicting web actions from html content. 
-        </cite>
-        Davison, B. D. (2002, June). 
-        In Proceedings of the thirteenth ACM conference on Hypertext and hypermedia (pp. 159-168).
-    </p>
-
-    <p>
-        Demonstrating bi-directional override <br>
-        <bdo dir="rtl">Demonstrating bi-directional override</bdo>
-    </p>
-
-    <p>
-        Inserting comments<br>
-        To insert a comment to your HTML code:<br>
-        Insert a "<" followed by a "!" then "--" then your comment then "--" and finish with a ">"
-    </p>
 </body>
 </html>
 
 <!--
-    <blockquote> Defines sections quoted from another source. Appears indented
-    <q> Defines a short quotation. Appears with double quotes
-    <abbr> Defines an abbreviation. It appears underlined
-        The full abbreviated word appears when the mouse hovers the word
-    <address> Defines a contact information. Appears italicised
-    <cite>  Defines the title of a creative art, e.g. a book or drawing
-    <bdo> Defines bi-directional override. Text is written in reverse.
-        When using <bdo>  the direction is specified using the dir attribute
-        and its value is the direction, e.g. <bdo dir="rtl"...rtl meaning
-        right to left
+    RGB (Red, Green, Blue)
+    RGBA (Red, Green, Blue, Alpha Capacity)
+    Alpha capacity is the transparency value from 0.0 to 1.0
+    0.0 is fully transparent; 1.0 is fully opaque
+    RGB supports upto 16777216 colours, 255 shades of Red, Green and Blue
+    Shades of grey appear as equal/close to equal RGB values
+
+    HEX colours are specified with #RRGGBB
+    Values range from 00 to ff. ff is the highest value
+    Shades of grey appear as equal/close to equal HEX values
+
+    HSL (Hue, Saturation, Lightness)
+    HSLA - (Hue, Saturation, Lightness, Alpha Capacity)
+    Hue - degree of colour on the colour wheel
+        (0 is red; 120 is green; 240 is blue)
+    Saturation - Percentage value where, 0% is grey and
+        100% is full colour
+    Lightness - Percentage value where, 0% is black and
+        100% is white
+    Alpha capacity - Transparency from 0.0 to 1.0, where
+        0.0 is transparent and 1.0 is fully opaque
 -->
