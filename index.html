@@ -9,38 +9,33 @@ over the past few weeks-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!--External style demo-->
+    <link rel="stylesheet" href="html-css.css">
+
+    <!--Inline style demo-->
+    <style>
+        body {
+            background-color: powderblue;
+        }
+    </style>
 </head>
 <body>
-    <h1>HTML Colours</h1>
-    <p style="color: rgb(255,99,71);">Colour scheme 1: rgb(255,99,71)</p>
-    <p style="color: #ff6347;">Colour scheme 2: #ff6347</p>
-    <p style="color:hsl (9, 100%, 64%)">Colour scheme 3: hsl (9, 100%, 64%)</p>
-    <p style="color: rgba(255, 99, 71,0.5);">Colour scheme 4: rgba(255, 99, 71,0.5)</p>
-    <p style="color:hsla(9,100%,64%,0.5);">Colour scheme 5:hsla:(9,100%,64%,0.5)</p>
+    <h1>HTML Styles - with CSS</h1>
+    <p style="color: black;">
+    This paragraph has used an inline style
+    The body has used an internal style
+    The heading has used an external style
+
+</p>
+    
 
 </body>
 </html>
 
 <!--
-    RGB (Red, Green, Blue)
-    RGBA (Red, Green, Blue, Alpha Capacity)
-    Alpha capacity is the transparency value from 0.0 to 1.0
-    0.0 is fully transparent; 1.0 is fully opaque
-    RGB supports upto 16777216 colours, 255 shades of Red, Green and Blue
-    Shades of grey appear as equal/close to equal RGB values
-
-    HEX colours are specified with #RRGGBB
-    Values range from 00 to ff. ff is the highest value
-    Shades of grey appear as equal/close to equal HEX values
-
-    HSL (Hue, Saturation, Lightness)
-    HSLA - (Hue, Saturation, Lightness, Alpha Capacity)
-    Hue - degree of colour on the colour wheel
-        (0 is red; 120 is green; 240 is blue)
-    Saturation - Percentage value where, 0% is grey and
-        100% is full colour
-    Lightness - Percentage value where, 0% is black and
-        100% is white
-    Alpha capacity - Transparency from 0.0 to 1.0, where
-        0.0 is transparent and 1.0 is fully opaque
+    There are several ways to use the style attribute from CSS in HTML
+    Inline - Using style attribute inside HTML documents directly
+    Internal - Using <style> element in the <head> section
+    External - Using a <link> element to link external .css file
 -->
